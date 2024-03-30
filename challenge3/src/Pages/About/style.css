@@ -1,0 +1,12 @@
+.titulo{
+    font-family: Medula One;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 96.77px;
+    text-align: center;
+    color: #3D6992;
+}
+
+.cards{
+    display: flex;
+}
