@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
         <>
             <Menu/>
             <h1>Experimente o Salesforce Starter Suite gratuitamente.</h1>
-            <h3>Reúna marketing, vendas e atendimento em um único aplicativo. Experimente o Salesforce Starter Suite hoje mesmo. Não há nada para instalar. Não é necessário cartão de crédito. Inicie teste gratuitoAssita à demo</h3>
+            <h3>Reúna marketing, vendas e atendimento em um único aplicativo. Experimente o Salesforce Starter Suite hoje mesmo. Não há nada para instalar. Não é necessário cartão de crédito. Inicie teste gratuito</h3>
 
             <button><Link to="/TesteUmMes">faça o teste gratuitamente</Link></button>
 
@@ -59,7 +59,7 @@ import { Link } from "react-router-dom";
                 </div>
                 <p>Seja qual for a sua indústria, oferecemos soluções para modernizar o seu negócio, economizar tempo e reduzir custos.</p>
             </section>
-            <button><a href=''>Veja todas as indústrias</a></button>
+            <button><Link to= '/Quiz'>Realize um Quiz rápido e descubra qual a licença combina com a sua empresa!</Link></button>
             <div id="grupoIndustrias">
                 <img src={grupo1}/>
                 <img src={grupo2}/>

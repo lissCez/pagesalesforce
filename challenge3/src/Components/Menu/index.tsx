@@ -7,7 +7,7 @@ const Menu = () =>{
         <>
             <div className="menu">
             <div className="sfimg">
-                <Link to= ''><img className="salesforceIcon" src={sfimg} alt="SalesforceIcon"></img></Link>   
+                <img className="salesforceIcon" src={sfimg} alt="SalesforceIcon"/>
             </div>
                 <div className="aHLCT">
                     {/* <Link to= "/about">About</Link> */}
