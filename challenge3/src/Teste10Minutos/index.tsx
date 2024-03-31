@@ -1,5 +1,5 @@
 import "./style.css";
-import brasilia from "../../src/assets/brasilia.png"
+import brasilia1 from "../assets/brasilia.png";
 
 
 const Teste10Minutos = () => {
@@ -45,7 +45,7 @@ const Teste10Minutos = () => {
         <div className="txtImg">
 
           <div className="bsbImag">
-            <img className="bsb" src={brasilia}/>
+            <img className="bsb" src={brasilia1}/>
           </div>
 
           <div className="textBottom">
