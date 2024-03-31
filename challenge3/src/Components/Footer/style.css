@@ -1,0 +1,53 @@
+#footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #1E5B5A;
+    background-color: white;
+    gap: 5%;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+}
+
+#help{
+    display: flex;
+    flex-direction: column;
+}
+
+#ytsh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-bottom: 9%;
+}
+
+a{
+    padding-left: 8px;
+    text-decoration: none;
+    color: #1E5B5A;
+}
+
+.github img, .yt{
+    width: 30%;
+    background-color: #1E5B5A;
+    border-radius: 40px;
+}
+
+h1{
+    font-size: 100%;
+}
