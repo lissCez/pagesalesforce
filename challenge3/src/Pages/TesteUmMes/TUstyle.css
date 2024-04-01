@@ -17,6 +17,7 @@ body{
 
 .textBold{
     margin-bottom: 20px;
+    color:#017B7D;
 }
 
 .title{
@@ -92,7 +93,7 @@ body{
 .txtImg{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 90vw;
     justify-content: center;
     
 }
