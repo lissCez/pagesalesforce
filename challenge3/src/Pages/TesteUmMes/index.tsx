@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+import './style.css';
+=======
 import "./TUstyle.css";
 import salesforceIcon from "../../assets/salesforceIcon.png"
+>>>>>>> 93484bb861488f2eefcbeba47321406bdc87991a
 
 const TesteUmMes = () => {
     return(

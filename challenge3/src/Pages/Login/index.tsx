@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+import './style.css';
+=======
 import "./Lstyle.css";
+>>>>>>> 93484bb861488f2eefcbeba47321406bdc87991a
 import rjImg from "../../assets/rjImg.png";
 import salesforceIcon from "../../assets/salesforceIcon.png"
 

@@ -1,4 +1,4 @@
-import "./style.css";
+import './style.css';
 import brasilia1 from "../../assets/brasilia.png";
 import salesforceIcon from "../../assets/salesforceIcon.png"
 
