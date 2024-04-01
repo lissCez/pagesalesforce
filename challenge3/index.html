@@ -2,12 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/salesforceIcon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Salesforce</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script>
+      // Array para armazenar os dados
+      var data = [];
+  
+      // Função para coletar cliques e posição do mouse
+      function trackClickAndPosition(event) {
+          var clickData = {
+              timestamp: new Date().toISOString(),
+              xPosition: event.clientX,
+              yPosition: event.clientY
+          };
+  
+          // Adiciona os dados ao array
+          data.push(clickData);
+      }
+  
+      // Adiciona um ouvinte de eventos para o clique do mouse
+      $(document).on('click', trackClickAndPosition);
+  
+      // Função para salvar os dados em CSV
+      function saveDataToCSV() {
+          var csvContent = "data:text/csv;charset=utf-8,";
+          csvContent += "Timestamp,X Position,Y Position\n";
+  
+          data.forEach(function (click) {
+              csvContent += click.timestamp + "," + click.xPosition + "," + click.yPosition + "\n";
+          });
+  
+          // Cria um link para download do CSV
+          var encodedUri = encodeURI(csvContent);
+          var link = document.createElement("a");
+          link.setAttribute("href", encodedUri);
+          link.setAttribute("download", "click_data.csv");
+          document.body.appendChild(link);
+  
+          // Simula um clique no link para iniciar o download
+          link.click();
+      }
+  
+      // Adiciona um botão para salvar os dados em CSV
+      $(document.body).append('<button onclick="saveDataToCSV()">Salvar em CSV</button>');
+  </script>
+
+  <button onclick="saveDataToCSV()">Salvar em CSV</button>
+  <a href="data:text/csv;charset=utf-8,Timestamp,X%20Position,Y%20Position%0A2024-04-01T14:47:44.776Z,487,194%0A2024-04-01T14:47:45.735Z,145,40%0A2024-04-01T14:47:46.095Z,32,148%0A2024-04-01T14:47:46.599Z,121,336%0A2024-04-01T14:47:46.912Z,560,350%0A2024-04-01T14:47:47.191Z,547,137%0A2024-04-01T14:47:47.503Z,711,110%0A2024-04-01T14:47:47.808Z,1156,155%0A2024-04-01T14:47:48.079Z,1046,351%0A2024-04-01T14:47:48.361Z,352,232%0A2024-04-01T14:47:48.592Z,170,95%0A" download="click_data.csv"></a>
   </body>
 </html>

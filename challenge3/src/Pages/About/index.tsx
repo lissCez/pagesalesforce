@@ -1,6 +1,6 @@
 
 import Card from "../../Components/Card";
-import "./style.css";
+import "./Astyle.css";
 
 const About = () => {
     return(

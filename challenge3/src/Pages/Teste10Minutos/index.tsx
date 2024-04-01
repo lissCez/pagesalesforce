@@ -1,5 +1,6 @@
 import './style.css';
 import brasilia1 from "../../assets/brasilia.png";
+import salesforceIcon from "../../assets/salesforceIcon.png"
 
 
 const Teste10Minutos = () => {
@@ -9,7 +10,7 @@ const Teste10Minutos = () => {
         <h1 className="title">Cadastrar no teste de 10 minutos</h1>
         <img
           className="salesforceIcon"
-          src="https://s3-alpha-sig.figma.com/img/f5c8/f589/8f1f6c8c9c01c05d5bcb823b41443f59?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jsCJJ7dGc0gUAJpGXbBWD-L70ri3MJj57qbZab9YfsgiDzCg4sqMnJ39OmndyC4vc6xEz8gvf3RS4GujQJTIlQVaTwPcibdI3eesw4FdZ1CMA97ywkKs0I~qrbegEXpQ7tbRtKlacfqMPvPBDRkCzzOGYaW8RINM1HCIY~8yZpkr87DZG-GVPe7iW5Cy0IJuUXhRYmzphqFhKJMr9AmkWunjqN7jDDR8lAoTtAvFVSq82V2qXN~YMC60WwAHTRglU~GTOYLWkFJUyLNmI0bJo3oL9ddRSh3Uyb1mwYRGhm8YP4QwMxokO7gC1d5t9ifRlcQVPAEZLANEByapJ2k8hA__"
+          src={salesforceIcon}
           alt=""
         />
       </div>

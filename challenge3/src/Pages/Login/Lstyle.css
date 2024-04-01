@@ -21,14 +21,13 @@ body{
 
 
 .forms{
-    display: flex;
-    flex-direction: column;
     width: 90vw;
     margin: 0 auto;
     padding-top: 35px;
     padding-bottom: 35px;
     background: linear-gradient(180deg, #4AB649 0%, #CCFFEC 100%);
     border-radius: 30px 30px 0px 0px;
+
 
 }
 .title{
@@ -201,7 +200,6 @@ input {
     }
 
 ::placeholder{
-    
     padding-left: 15px;
     color: #CCFFEC;
     font-family: Inter;

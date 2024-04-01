@@ -1,5 +1,5 @@
 
-import './style.css';
+import './Cstyle.css';
 
 type CardAbout = { 
     Img: string, 
