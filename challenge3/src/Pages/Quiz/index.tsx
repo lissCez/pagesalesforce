@@ -1,39 +1,40 @@
 import './style.css'
-
-import industrias from '../assets/Frame 15.png';
-import opA from '../assets/Button - A.png';
-import opB from '../assets/Button - B.png';
-import opC from '../assets/Button - C.png';
-import opD from '../assets/Button - D.png';
-import coelhoImg from '../assets/image 14.png';
-import respondeIcon from '../assets/image 18.png';
-import imgBfFooter from '../assets/image 15.png';
+import Menu from '../../Components/Menu';
+import Footer from '../../Components/Footer';
+import industries from '../../assets/Frame 15.png';
+import opA from '../../assets/Button - A.png';
+import opB from '../../assets/Button - B.png';
+import opC from '../../assets/Button - C.png';
+import opD from '../../assets/Button - D.png';
+import coelhoImg from '../../assets/image 14.png';
+import respondeIcon from '../../assets/image 18.png';
+import imgBfFooter from '../../assets/image 15.png';
 import { Link } from 'react-router-dom';
 
 const Quiz = () => {
     return(
         <>
             <section className="fundoBorrado">
-
+                <Menu/>
                 <p>Unleash Your Inner Wizard of Wisdom</p>
                 <h4>Embark on a Journey of Knowledge Exploration with Our Extensive Collection of Interactive Quizzes.</h4>
                 <p>Hi Andrew! what topic are you interested in?</p>
 
-                <div id="industrias">
+                <div id="industries">
                     <div className="coluna">
-                        <img src={industrias}/>
-                        <img src={industrias}/>
-                        <img src={industrias}/>
+                        <img src={industries}/>
+                        <img src={industries}/>
+                        <img src={industries}/>
                     </div>
                     <div className="coluna">
-                        <img src={industrias}/>
-                        <img src={industrias}/>
-                        <img src={industrias}/>
+                        <img src={industries}/>
+                        <img src={industries}/>
+                        <img src={industries}/>
                     </div>
                     <div className="coluna">
-                        <img src={industrias}/>
-                        <img src={industrias}/>
-                        <img src={industrias}/>
+                        <img src={industries}/>
+                        <img src={industries}/>
+                        <img src={industries}/>
                     </div>
                 </div>
 
@@ -74,7 +75,7 @@ const Quiz = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 <button><Link to='/Teste10Minutos'>Teste Grátis</Link></button>
                 <img src={imgBfFooter} alt="pequenos arbustos com fundo de forma abstrata branca" />
-
+                <Footer/>
             </section>
         </>
     )

@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './Home/index.tsx'
-import About from './About/index.tsx';
-import Login from './Login/index.tsx';
-import Teste10Minutos from './Teste10Minutos/index.tsx';
-import TesteUmMes from './TesteUmMes/index.tsx';
+import Home from './Pages/Home/index.tsx';
+import Login from './Pages/Login/index.tsx';
+import TesteUmMes from './Pages/TesteUmMes/index.tsx';
+import Quiz from './Pages/Quiz/index.tsx';
+import About from './Pages/About/index.tsx';
+import Teste10Minutos from './Pages/Teste10Minutos/index.tsx';
 
 const router = createBrowserRouter([
   {
     path:"/",
-    element: <Home/>
+    element: <Home/>,
   },
   {
     path:'/Login',
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path:'/TesteUmMes',
     element:<TesteUmMes/>,
+  },
+  {
+    path:'/Quiz',
+    element:<Quiz/>
   },
   {
     path:'/About',

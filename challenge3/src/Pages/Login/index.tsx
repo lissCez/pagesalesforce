@@ -1,5 +1,5 @@
 import "./style.css";
-import rjImg from "../../src/assets/rjImg.png";
+import rjImg from "../../assets/rjImg.png";
 
 
 const Login = () => {
