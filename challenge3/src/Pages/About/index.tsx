@@ -1,5 +1,5 @@
 
-import Card from "../Components/Card";
+import Card from "../../Components/Card";
 import "./style.css";
 
 const About = () => {
