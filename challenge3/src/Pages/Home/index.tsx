@@ -9,7 +9,6 @@ import opD from '../../assets/Button - D.png';
 import coelhoImg from '../../assets/image 14.png';
 import respondeIcon from '../../assets/image 18.png';
 import imgBfFooter from '../../assets/image 15.png';
-import bgiimg from '../../assets/7218555 1.png';
 import { Link } from "react-router-dom";
 
 
