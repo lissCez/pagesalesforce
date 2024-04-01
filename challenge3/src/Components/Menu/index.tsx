@@ -10,7 +10,7 @@ const Menu = () =>{
                     <img className="salesforceIcon" src={sfimg} alt="SalesforceIcon"/>
                 </div>
                 <div className="aHLCT">
-                    {/* <Link to= "/about">About</Link> */}<h1>About</h1>
+                    <Link to= "/about">About</Link><h1>About</h1>
                     <Link to= '/'>Home</Link><h1>Home</h1>
                 </div>                
                 <div className="botao">

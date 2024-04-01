@@ -1,5 +1,5 @@
 import "./style.css";
-import brasilia1 from "../assets/brasilia.png";
+import brasilia1 from "../../assets/brasilia.png";
 
 
 const Teste10Minutos = () => {
