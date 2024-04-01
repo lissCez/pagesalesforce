@@ -5,7 +5,6 @@
     justify-content: space-around;
     color: #1E5B5A;
     background-color: white;
-    gap: 5%;
 }
 
 #info{
@@ -23,31 +22,34 @@
     flex-direction: column;
 }
 
-#ytsh{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .github{
     display: flex;
     align-items: center;
     height: 50%;
     margin-bottom: 9%;
+    gap: 10px;
 }
 
-a{
-    padding-left: 8px;
+.link .linkinho, #about a ,#help a, .icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50%;
     text-decoration: none;
     color: #1E5B5A;
 }
 
-.github img, .yt{
-    width: 30%;
-    background-color: #1E5B5A;
-    border-radius: 40px;
+.github a {
+    text-decoration: none;
+    color: #1E5B5A;
 }
 
-h1{
+.github img{
+    width: 10%;
+    background-color: #1E5B5A;
+    border-radius: 100%;
+}
+
+section h1{
     font-size: 100%;
 }

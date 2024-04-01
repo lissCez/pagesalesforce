@@ -7,25 +7,15 @@ const Menu = () =>{
         <>
             <div className="menu">
                 <div className="sfimg">
-                    <img className="salesforceIcon" src={sfimg} alt="SalesforceIcon"/>
+                    <Link to='/'><img className="salesforceIcon" src={sfimg} alt="SalesforceIcon"/></Link>
                 </div>
                 <div className="aHLCT">
-                    <Link to= "/about">About</Link><h1>About</h1>
-                    <Link to= '/'>Home</Link><h1>Home</h1>
+                    <Link to= "/about" className="aHLCT">About</Link>
+                    <Link to= '/' className="aHLCT">Home</Link>
                 </div>                
                 <div className="botao">
-                    <button className="butao"><Link to= '/Login'>Log in</Link></button>
+                    <button className="butao"><Link className='bt' to= '/Login'>Log in</Link></button>
                 </div>
-            <div className="sfimg">
-                <Link to= ''><img className="salesforceIcon" src={sfimg} alt="SalesforceIcon"></img></Link>   
-            </div>
-                <div className="aHLCT">
-                    <Link to= "/About">About</Link>
-                    <Link to= "/">Home</Link>
-                </div>
-                 <div className="botao">
-                    <button className="butao"><Link to= '/Login'>Log in</Link></button>
-                 </div>
             </div>
         </>
     )

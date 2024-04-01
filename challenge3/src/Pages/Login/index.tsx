@@ -1,4 +1,4 @@
-import "./style.css";
+import './style.css';
 import rjImg from "../../assets/rjImg.png";
 
 
