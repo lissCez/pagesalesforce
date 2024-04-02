@@ -1,19 +1,15 @@
 import './TMstyle.css';
 import brasilia1 from "../../assets/brasilia.png";
-import salesforceIcon from "../../assets/salesforceIcon.png"
 import Footer from '../../Components/Footer';
+import Menu from '../../Components/Menu';
 
 
 const Teste10Minutos = () => {
   return (
     <main className="main">
+      <Menu/>
       <div className="header">
         <h1 className="title">Cadastrar no teste de 10 minutos</h1>
-        <img
-          className="salesforceIcon"
-          src={salesforceIcon}
-          alt=""
-        />
       </div>
 
       <div className="textBold">

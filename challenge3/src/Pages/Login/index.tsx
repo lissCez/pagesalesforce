@@ -1,19 +1,16 @@
 
 import "./Lstyle.css";
 import rjImg from "../../assets/rjImg.png";
-import salesforceIcon from "../../assets/salesforceIcon.png"
 import Footer from "../../Components/Footer";
+import Menu from "../../Components/Menu";
 
 const Login = () => {
   return (
+
     <main className="mainL">
+      <Menu/>
       <div className="headerL">
         <h1 className="titleL">Conecte-se</h1>
-        <img
-          className="salesforceIconL"
-          src={salesforceIcon}
-          alt=""
-        />
       </div>
 
       <div className="textBoldL">

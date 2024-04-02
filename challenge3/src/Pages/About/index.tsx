@@ -1,11 +1,12 @@
 
 import Card from "../../Components/Card";
+import Menu from "../../Components/Menu";
 import "./Astyle.css";
 
 const About = () => {
     return(
-
         <div>
+        <Menu/>
              <h1 className="titulo">Quem somos</h1>
              <div className="cards">
                 <Card

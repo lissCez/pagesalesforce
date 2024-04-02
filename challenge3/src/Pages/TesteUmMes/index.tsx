@@ -10,11 +10,6 @@ const TesteUmMes = () => {
             <Menu/>
             <div className="header10">
                 <h1 className="title10">Cadastrar para o teste de 1 mês</h1>
-                <img
-                className="salesforceIcon"
-                src={salesforceIcon}
-                alt=""
-                />
             </div>
 
             <div className="textBold10">
