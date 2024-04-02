@@ -1,4 +1,4 @@
-import './style.css';
+import './Hstyle.css';
 import Footer from '../../Components/Footer';
 import Menu from '../../Components/Menu';
 import industries from '../../assets/Frame 15.png';

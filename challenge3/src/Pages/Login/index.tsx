@@ -1,44 +1,42 @@
-<<<<<<< HEAD
-import './style.css';
-=======
+
 import "./Lstyle.css";
->>>>>>> 93484bb861488f2eefcbeba47321406bdc87991a
 import rjImg from "../../assets/rjImg.png";
 import salesforceIcon from "../../assets/salesforceIcon.png"
+import Footer from "../../Components/Footer";
 
 const Login = () => {
   return (
-    <main className="main">
-      <div className="header">
-        <h1 className="title">Conecte-se</h1>
+    <main className="mainL">
+      <div className="headerL">
+        <h1 className="titleL">Conecte-se</h1>
         <img
-          className="salesforceIcon"
+          className="salesforceIconL"
           src={salesforceIcon}
           alt=""
         />
       </div>
 
-      <div className="textBold">
-        <p>
+      <div className="textBoldL">
+        <p className="verdeIntro">
           Preencha os campos abaixo com suas informações
         </p>
       </div>
 
-      <section className="forms">
-        <h1 className="textForm">Usuário</h1>
-        <input type="text" placeholder="Digite seu nome..." />
-        <h1 className="textForm">Senha</h1>
-        <input type="password" placeholder="Digite sua senha..." />
-        <div className="tinyText">
+      <section className="formsL">
+        <h1 className="textFormL">Usuário</h1>
+        <input className="inputVerde" type="text" placeholder="Digite seu nome..." />
+        <h1 className="textFormL">Senha</h1>
+        <input className="inputVerde" type="password" placeholder="Digite sua senha..." />
+        <div className="tinyTextL">
           <h4>Esqueceu sua senha?</h4>
         </div>
 
-        <div className="buttonCon">
-          <button type="button">Conectar</button>
+        <div className="buttonConL">
+          <button className="buttonVerde" type="button">Conectar</button>
         </div>
 
-        <div className="tinyText">
-          <p className="grayText">
+        <div className="tinyTextL">
+          <p className="grayTextL">
             Não tem uma conta?
             <b>
               <br />
@@ -51,16 +49,16 @@ const Login = () => {
 
           
 
-        <div className="txtImg">
+        <div className="txtImgL">
 
-          <div className="rjImag">
-            <img className="Rj" src={rjImg}/>
+          <div className="rjImagL">
+            <img className="RjL" src={rjImg}/>
           </div>
 
-          <div className="textBottom">
-            <p  className="whiteText"><b>Experimente nossa solução completa de CRM e vendas, grátis por 30 dias.</b></p>
+          <div className="textBottomL">
+            <p  className="whiteTextL"><b>Experimente nossa solução completa de CRM e vendas, grátis por 30 dias.</b></p>
             
-            <p  className="whiteText">Com o Sales Cloud Professional Edition, você tem acesso a:</p>
+            <p  className="whiteTextL">Com o Sales Cloud Professional Edition, você tem acesso a:</p>
 
             <ul>
               <li>Dados pré-carregados e recursos para integrar os dados da sua empresa;</li>
@@ -73,11 +71,13 @@ const Login = () => {
               <li>Uma visão completa da performance de seus representantes e equipes de vendas.</li>
             </ul>
 
-            <p className="whiteText"> <b>Dúvidas? Entre em contato e fale com um de nossos especialistas: 0800 891 1887.</b></p>
+            <p className="whiteTextL"> <b>Dúvidas? Entre em contato e fale com um de nossos especialistas: 0800 891 1887.</b></p>
           </div>
 
 
+        <Footer/>
         </div>
+
     </main>
   );
 };

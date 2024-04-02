@@ -1,6 +1,7 @@
-import './style.css';
+import './TMstyle.css';
 import brasilia1 from "../../assets/brasilia.png";
 import salesforceIcon from "../../assets/salesforceIcon.png"
+import Footer from '../../Components/Footer';
 
 
 const Teste10Minutos = () => {
@@ -65,8 +66,11 @@ const Teste10Minutos = () => {
             <li>Uma visão completa da performance de seus representantes e equipes de vendas.</li>
           </ul>
           </div>
-
+        
+        <Footer/>
         </div>
+
+
     </main>
   );
 };
